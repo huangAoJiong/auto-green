@@ -16,7 +16,6 @@ jobs:
 
       - name: Auto green
         run: |
-          git init
           git config --local user.email "hajmail2000@163.com"
           git config --local user.name "huangAoJiong"
           git config --global http.sslverify "false"
